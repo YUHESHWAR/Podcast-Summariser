@@ -89,3 +89,15 @@ pip install torch transformers peft flask tqdm evaluate youtube-transcript-api
 - 🔄 Actively using the **latest model loading and summarization code**.
 - 🧪 Fully testable through the provided notebooks.
 - 💡 Easily extendable for full pipeline use (transcription → chunking → summarization → visualization).
+
+---
+
+### 📚 Dataset and Credits
+
+This model was fine-tuned on the **[`vwxyzjn/summarize_from_feedback_tldr_3_filtered`](https://huggingface.co/datasets/vwxyzjn/summarize_from_feedback_tldr_3_filtered)** dataset available on Hugging Face.
+
+- The dataset contains high-quality human-written summaries from **TL;DR OpenAI Feedback Summarization** tasks.
+- It is curated specifically for training **abstractive summarization models** with human preference alignment.
+
+> 📢 **Credits**:  
+Special thanks to **Shengyi Costa Huang** for creating and sharing the dataset publicly.
