@@ -92,12 +92,12 @@ pip install torch transformers peft flask tqdm evaluate youtube-transcript-api
 
 ---
 
-### 📚 Dataset and Credits
+### Dataset and Credits
 
 This model was fine-tuned on the **[`vwxyzjn/summarize_from_feedback_tldr_3_filtered`](https://huggingface.co/datasets/vwxyzjn/summarize_from_feedback_tldr_3_filtered)** dataset available on Hugging Face.
 
 - The dataset contains high-quality human-written summaries from **TL;DR OpenAI Feedback Summarization** tasks.
 - It is curated specifically for training **abstractive summarization models** with human preference alignment.
 
-> 📢 **Credits**:  
+> **Credits**:  
 Special thanks to **Shengyi Costa Huang** for creating and sharing the dataset publicly.
