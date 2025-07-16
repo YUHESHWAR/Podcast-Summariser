@@ -22,5 +22,23 @@ requests>=2.32.3
 # Enables running and editing notebooks for development and prototyping
 jupyter>=1.0.0
 
+# Required for loading FLAN-T5 and running inference
+torch
 
-pip install -r requirements.txt
+# Hugging Face library for tokenizer and model usage
+transformers
+
+# LoRA integration with Hugging Face models
+peft
+
+# For serving the summarization API
+flask
+
+# Progress bar utility for batch processing
+tqdm
+
+# Summarization metrics like ROUGE
+evaluate
+
+# Used to fetch video subtitles from YouTube
+youtube-transcript-api
